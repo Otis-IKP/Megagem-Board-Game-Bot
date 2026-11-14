@@ -1,0 +1,39 @@
+{
+  "bot": "mr_full",
+  "params": {
+    "reset_detect": 1.0,
+    "la_share": 6.0,
+    "lam0": 2.275392,
+    "kappa": 0.143396,
+    "delta": -0.675209,
+    "rho": 0.453546,
+    "prior_weight": 2.347772,
+    "decay": 0.95538,
+    "la_mix": 0.068703,
+    "win_cost": -0.800535,
+    "race_pen": 0.910794,
+    "deny_w": 0.085838
+  },
+  "validation": {
+    "mean_score": 93.56828703703704,
+    "win_rate": 0.7881944444444444
+  },
+  "untuned_validation": {
+    "mean_score": 92.37847222222223,
+    "win_rate": 0.75
+  },
+  "search": {
+    "pop": 40,
+    "gens": 30,
+    "repeats": 2,
+    "seed": 0,
+    "win_bonus": 15.0,
+    "pool": "strong",
+    "players": [
+      3,
+      4,
+      5
+    ],
+    "finalists_validated": 34
+  }
+}

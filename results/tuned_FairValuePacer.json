@@ -1,0 +1,29 @@
+{
+  "bot": "FairValuePacer",
+  "params": {
+    "share": 0.288928,
+    "lam0": 0.58083,
+    "kappa": -0.500793,
+    "delta": 2.244903,
+    "rho": 0.50992,
+    "inv_share": 0.160141,
+    "loan_share": 0.756316,
+    "reveal_sign": 1.0
+  },
+  "validation": {
+    "mean_score": 92.77662037037037,
+    "win_rate": 0.6909722222222222
+  },
+  "untuned_validation": {
+    "mean_score": 69.09606481481481,
+    "win_rate": 0.4506172839506173
+  },
+  "search": {
+    "pop": 40,
+    "gens": 30,
+    "repeats": 2,
+    "seed": 0,
+    "win_bonus": 15.0,
+    "finalists_validated": 34
+  }
+}

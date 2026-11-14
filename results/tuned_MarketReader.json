@@ -1,0 +1,28 @@
+{
+  "bot": "MarketReader",
+  "params": {
+    "lam0": 1.837282,
+    "kappa": -0.108618,
+    "delta": 0.0,
+    "rho": 0.35634,
+    "prior_weight": 2.766295,
+    "decay": 0.939374,
+    "reveal_sign": 1.0
+  },
+  "validation": {
+    "mean_score": 107.8113425925926,
+    "win_rate": 0.8721064814814815
+  },
+  "untuned_validation": {
+    "mean_score": 91.11458333333333,
+    "win_rate": 0.7040895061728395
+  },
+  "search": {
+    "pop": 40,
+    "gens": 30,
+    "repeats": 2,
+    "seed": 0,
+    "win_bonus": 15.0,
+    "finalists_validated": 33
+  }
+}

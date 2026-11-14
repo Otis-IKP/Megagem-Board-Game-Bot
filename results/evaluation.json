@@ -1,0 +1,1574 @@
+{
+ "games_per_series": 15,
+ "quick": false,
+ "field_all_opponents": {
+  "slots": 600,
+  "entrants": {
+   "FairValuePacer": {
+    "series": 600,
+    "games": 9000,
+    "mean_score": 75.75266666666667,
+    "win_rate": 0.5247777777777778,
+    "score_ci": [
+     72.81933333333333,
+     78.56288888888888
+    ],
+    "margin_vs_table": 27.276416666666666,
+    "by_players": {
+     "3": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 97.41966666666667,
+      "win_rate": 0.5825
+     },
+     "4": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 66.459,
+      "win_rate": 0.46744444444444444
+     },
+     "5": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 63.379333333333335,
+      "win_rate": 0.5243888888888889
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 71.04388888888889,
+      "win_rate": 0.4543518518518519
+     },
+     "B": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 71.94388888888889,
+      "win_rate": 0.5305555555555556
+     },
+     "C": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 58.986666666666665,
+      "win_rate": 0.3827777777777778
+     },
+     "D": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 94.43888888888888,
+      "win_rate": 0.6736111111111112
+     },
+     "E": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 82.35,
+      "win_rate": 0.5825925925925927
+     }
+    },
+    "by_game_index": [
+     74.265,
+     75.90333333333334,
+     76.135,
+     75.48166666666667,
+     76.81833333333333,
+     76.06333333333333,
+     75.995,
+     75.45,
+     75.47666666666667,
+     75.55333333333333,
+     76.28166666666667,
+     76.12333333333333,
+     76.22166666666666,
+     76.655,
+     73.86666666666666
+    ]
+   },
+   "MarketReader": {
+    "series": 600,
+    "games": 9000,
+    "mean_score": 101.19022222222222,
+    "win_rate": 0.892537037037037,
+    "score_ci": [
+     98.73566666666667,
+     103.63955555555555
+    ],
+    "margin_vs_table": 62.17630555555556,
+    "by_players": {
+     "3": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 122.92533333333333,
+      "win_rate": 0.8946666666666667
+     },
+     "4": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 93.47433333333333,
+      "win_rate": 0.8985
+     },
+     "5": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 87.171,
+      "win_rate": 0.8844444444444445
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 98.96777777777778,
+      "win_rate": 0.8747222222222222
+     },
+     "B": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 95.89555555555556,
+      "win_rate": 0.9091666666666667
+     },
+     "C": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 83.79388888888889,
+      "win_rate": 0.8326851851851852
+     },
+     "D": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 120.88222222222223,
+      "win_rate": 0.9483333333333334
+     },
+     "E": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 106.41166666666666,
+      "win_rate": 0.8977777777777778
+     }
+    },
+    "by_game_index": [
+     96.07333333333334,
+     98.82833333333333,
+     100.295,
+     101.185,
+     101.71833333333333,
+     103.16,
+     102.36,
+     102.05333333333333,
+     101.86833333333334,
+     101.37333333333333,
+     102.47666666666667,
+     102.42166666666667,
+     101.175,
+     101.97,
+     100.895
+    ]
+   },
+   "EvolvedWeights": {
+    "series": 600,
+    "games": 9000,
+    "mean_score": 82.34577777777778,
+    "win_rate": 0.7223703703703703,
+    "score_ci": [
+     80.35477777777778,
+     84.37955555555556
+    ],
+    "margin_vs_table": 38.908175925925924,
+    "by_players": {
+     "3": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 103.616,
+      "win_rate": 0.7707777777777778
+     },
+     "4": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 75.22466666666666,
+      "win_rate": 0.6951666666666667
+     },
+     "5": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 68.19666666666667,
+      "win_rate": 0.7011666666666667
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 80.90055555555556,
+      "win_rate": 0.6976851851851852
+     },
+     "B": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 77.39222222222222,
+      "win_rate": 0.7066666666666667
+     },
+     "C": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 68.82055555555556,
+      "win_rate": 0.6794444444444444
+     },
+     "D": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 97.43777777777778,
+      "win_rate": 0.7833333333333333
+     },
+     "E": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 87.17777777777778,
+      "win_rate": 0.7447222222222222
+     }
+    },
+    "by_game_index": [
+     81.85166666666667,
+     81.90666666666667,
+     81.39333333333333,
+     82.41,
+     82.48666666666666,
+     83.08333333333333,
+     82.61833333333334,
+     81.73833333333333,
+     81.95833333333333,
+     81.86666666666666,
+     82.72833333333334,
+     82.64333333333333,
+     83.97333333333333,
+     83.21333333333334,
+     81.315
+    ]
+   },
+   "HeuristicBot": {
+    "series": 600,
+    "games": 9000,
+    "mean_score": 49.175333333333334,
+    "win_rate": 0.18512962962962964,
+    "score_ci": [
+     47.94855555555556,
+     50.346333333333334
+    ],
+    "margin_vs_table": -1.2361851851851853,
+    "by_players": {
+     "3": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 65.60733333333333,
+      "win_rate": 0.2695
+     },
+     "4": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 44.68233333333333,
+      "win_rate": 0.16094444444444445
+     },
+     "5": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 37.236333333333334,
+      "win_rate": 0.12494444444444444
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 48.09388888888889,
+      "win_rate": 0.135
+     },
+     "B": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 47.52333333333333,
+      "win_rate": 0.1974074074074074
+     },
+     "C": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 46.33444444444444,
+      "win_rate": 0.245
+     },
+     "D": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 53.48777777777778,
+      "win_rate": 0.1761111111111111
+     },
+     "E": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 50.437222222222225,
+      "win_rate": 0.17212962962962963
+     }
+    },
+    "by_game_index": [
+     49.233333333333334,
+     50.541666666666664,
+     49.376666666666665,
+     49.13,
+     49.005,
+     49.64333333333333,
+     49.17,
+     49.08,
+     48.861666666666665,
+     48.82833333333333,
+     48.903333333333336,
+     49.54333333333334,
+     48.975,
+     48.325,
+     49.013333333333335
+    ]
+   },
+   "ThirdValueBot": {
+    "series": 600,
+    "games": 9000,
+    "mean_score": 74.79066666666667,
+    "win_rate": 0.6248518518518519,
+    "score_ci": [
+     72.99755555555555,
+     76.44177777777777
+    ],
+    "margin_vs_table": 30.72223148148148,
+    "by_players": {
+     "3": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 95.93833333333333,
+      "win_rate": 0.7408333333333333
+     },
+     "4": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 68.795,
+      "win_rate": 0.6042777777777778
+     },
+     "5": {
+      "series": 200,
+      "games": 3000,
+      "mean_score": 59.638666666666666,
+      "win_rate": 0.5294444444444444
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 74.32,
+      "win_rate": 0.6022222222222222
+     },
+     "B": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 71.44333333333333,
+      "win_rate": 0.6443518518518518
+     },
+     "C": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 68.23611111111111,
+      "win_rate": 0.6547222222222222
+     },
+     "D": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 82.42222222222222,
+      "win_rate": 0.6072222222222222
+     },
+     "E": {
+      "series": 120,
+      "games": 1800,
+      "mean_score": 77.53166666666667,
+      "win_rate": 0.6157407407407407
+     }
+    },
+    "by_game_index": [
+     75.49666666666667,
+     74.48833333333333,
+     74.28666666666666,
+     74.57666666666667,
+     75.19666666666667,
+     75.51666666666667,
+     74.75,
+     74.57833333333333,
+     75.065,
+     75.00333333333333,
+     74.835,
+     74.42666666666666,
+     75.10166666666667,
+     74.13833333333334,
+     74.4
+    ]
+   }
+  },
+  "paired": {
+   "FairValuePacer - MarketReader": {
+    "mean_diff": -25.437555555555555,
+    "ci": [
+     -26.570333333333334,
+     -24.395444444444443
+    ],
+    "share_of_series_ahead": 0.0033333333333333335
+   },
+   "FairValuePacer - EvolvedWeights": {
+    "mean_diff": -6.593111111111111,
+    "ci": [
+     -7.828888888888889,
+     -5.411444444444444
+    ],
+    "share_of_series_ahead": 0.33
+   },
+   "FairValuePacer - HeuristicBot": {
+    "mean_diff": 26.577333333333332,
+    "ci": [
+     24.506777777777778,
+     28.566222222222223
+    ],
+    "share_of_series_ahead": 0.8316666666666667
+   },
+   "FairValuePacer - ThirdValueBot": {
+    "mean_diff": 0.9619999999999999,
+    "ci": [
+     -0.7231111111111113,
+     2.5639999999999996
+    ],
+    "share_of_series_ahead": 0.5016666666666667
+   },
+   "MarketReader - EvolvedWeights": {
+    "mean_diff": 18.844444444444445,
+    "ci": [
+     17.977222222222224,
+     19.731777777777776
+    ],
+    "share_of_series_ahead": 0.9766666666666667
+   },
+   "MarketReader - HeuristicBot": {
+    "mean_diff": 52.01488888888889,
+    "ci": [
+     50.31977777777777,
+     53.73233333333334
+    ],
+    "share_of_series_ahead": 1.0
+   },
+   "MarketReader - ThirdValueBot": {
+    "mean_diff": 26.399555555555555,
+    "ci": [
+     25.12388888888889,
+     27.70722222222222
+    ],
+    "share_of_series_ahead": 0.9833333333333333
+   },
+   "EvolvedWeights - HeuristicBot": {
+    "mean_diff": 33.17044444444444,
+    "ci": [
+     32.055,
+     34.24155555555556
+    ],
+    "share_of_series_ahead": 0.9983333333333333
+   },
+   "EvolvedWeights - ThirdValueBot": {
+    "mean_diff": 7.555111111111111,
+    "ci": [
+     6.769333333333333,
+     8.322
+    ],
+    "share_of_series_ahead": 0.7833333333333333
+   },
+   "HeuristicBot - ThirdValueBot": {
+    "mean_diff": -25.615333333333336,
+    "ci": [
+     -26.346555555555554,
+     -24.848111111111113
+    ],
+    "share_of_series_ahead": 0.0
+   }
+  }
+ },
+ "field_unseen_opponents": {
+  "slots": 300,
+  "entrants": {
+   "FairValuePacer": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 49.34,
+    "win_rate": 0.2616296296296296,
+    "score_ci": [
+     46.64644444444445,
+     52.11911111111111
+    ],
+    "margin_vs_table": -4.2657037037037036,
+    "by_players": {
+     "3": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 71.114,
+      "win_rate": 0.37333333333333335
+     },
+     "4": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 41.76466666666666,
+      "win_rate": 0.20088888888888887
+     },
+     "5": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 35.141333333333336,
+      "win_rate": 0.21066666666666667
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 51.30555555555556,
+      "win_rate": 0.26611111111111113
+     },
+     "B": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 45.82666666666667,
+      "win_rate": 0.23666666666666666
+     },
+     "C": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 38.117777777777775,
+      "win_rate": 0.16166666666666665
+     },
+     "D": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 55.88,
+      "win_rate": 0.2931481481481481
+     },
+     "E": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 55.57,
+      "win_rate": 0.35055555555555556
+     }
+    },
+    "by_game_index": [
+     50.026666666666664,
+     50.8,
+     48.72666666666667,
+     46.35,
+     48.88333333333333,
+     50.37,
+     47.71,
+     51.13,
+     49.32333333333333,
+     48.84,
+     49.196666666666665,
+     50.25333333333333,
+     48.416666666666664,
+     49.39333333333333,
+     50.68
+    ]
+   },
+   "MarketReader": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 87.10644444444445,
+    "win_rate": 0.9115555555555556,
+    "score_ci": [
+     84.53333333333333,
+     89.562
+    ],
+    "margin_vs_table": 48.43237037037037,
+    "by_players": {
+     "3": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 111.448,
+      "win_rate": 0.9383333333333334
+     },
+     "4": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 79.01,
+      "win_rate": 0.9063333333333333
+     },
+     "5": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 70.86133333333333,
+      "win_rate": 0.89
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 89.42222222222222,
+      "win_rate": 0.9022222222222223
+     },
+     "B": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 81.69,
+      "win_rate": 0.9322222222222222
+     },
+     "C": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 70.20333333333333,
+      "win_rate": 0.865
+     },
+     "D": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 101.23666666666666,
+      "win_rate": 0.9466666666666667
+     },
+     "E": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 92.98,
+      "win_rate": 0.9116666666666666
+     }
+    },
+    "by_game_index": [
+     82.05333333333333,
+     86.64,
+     86.16666666666667,
+     85.65333333333334,
+     86.82333333333334,
+     89.17,
+     88.21333333333334,
+     87.18,
+     87.76333333333334,
+     87.59,
+     87.45333333333333,
+     87.39,
+     88.09666666666666,
+     87.93333333333334,
+     88.47
+    ]
+   },
+   "EvolvedWeights": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 66.63955555555556,
+    "win_rate": 0.586,
+    "score_ci": [
+     64.44133333333333,
+     68.74644444444445
+    ],
+    "margin_vs_table": 21.503370370370373,
+    "by_players": {
+     "3": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 88.25266666666667,
+      "win_rate": 0.6676666666666666
+     },
+     "4": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 60.571333333333335,
+      "win_rate": 0.5685555555555556
+     },
+     "5": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 51.09466666666667,
+      "win_rate": 0.5217777777777778
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 68.11111111111111,
+      "win_rate": 0.5688888888888889
+     },
+     "B": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 62.46333333333333,
+      "win_rate": 0.5714814814814815
+     },
+     "C": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 54.73777777777778,
+      "win_rate": 0.5240740740740741
+     },
+     "D": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 76.24111111111111,
+      "win_rate": 0.6244444444444445
+     },
+     "E": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 71.64444444444445,
+      "win_rate": 0.6411111111111111
+     }
+    },
+    "by_game_index": [
+     67.28333333333333,
+     66.24,
+     65.21,
+     66.06666666666666,
+     66.20666666666666,
+     68.46333333333334,
+     65.03,
+     67.18333333333334,
+     67.01333333333334,
+     66.43666666666667,
+     67.19,
+     67.08333333333333,
+     66.07,
+     67.63333333333334,
+     66.48333333333333
+    ]
+   },
+   "HeuristicBot": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 42.90022222222222,
+    "win_rate": 0.13825925925925925,
+    "score_ci": [
+     41.37266666666667,
+     44.37155555555556
+    ],
+    "margin_vs_table": -5.615481481481482,
+    "by_players": {
+     "3": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 59.10066666666667,
+      "win_rate": 0.23055555555555554
+     },
+     "4": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 39.51866666666667,
+      "win_rate": 0.12855555555555556
+     },
+     "5": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 30.081333333333333,
+      "win_rate": 0.05566666666666667
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 43.20444444444445,
+      "win_rate": 0.11611111111111111
+     },
+     "B": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 43.221111111111114,
+      "win_rate": 0.15425925925925926
+     },
+     "C": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 40.69555555555556,
+      "win_rate": 0.2003703703703704
+     },
+     "D": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 43.614444444444445,
+      "win_rate": 0.08611111111111111
+     },
+     "E": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 43.76555555555556,
+      "win_rate": 0.13444444444444445
+     }
+    },
+    "by_game_index": [
+     42.733333333333334,
+     42.903333333333336,
+     42.51,
+     42.723333333333336,
+     42.46333333333333,
+     44.36333333333334,
+     42.29333333333334,
+     42.25333333333333,
+     43.96333333333333,
+     42.63,
+     43.21666666666667,
+     42.913333333333334,
+     42.513333333333335,
+     43.11333333333334,
+     42.91
+    ]
+   },
+   "ThirdValueBot": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 64.85511111111111,
+    "win_rate": 0.5841481481481481,
+    "score_ci": [
+     62.742666666666665,
+     66.92911111111111
+    ],
+    "margin_vs_table": 20.79885185185185,
+    "by_players": {
+     "3": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 87.34533333333333,
+      "win_rate": 0.711
+     },
+     "4": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 59.348,
+      "win_rate": 0.5866666666666667
+     },
+     "5": {
+      "series": 100,
+      "games": 1500,
+      "mean_score": 47.872,
+      "win_rate": 0.4547777777777777
+     }
+    },
+    "by_chart": {
+     "A": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 66.71222222222222,
+      "win_rate": 0.5883333333333334
+     },
+     "B": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 63.69777777777778,
+      "win_rate": 0.6175925925925926
+     },
+     "C": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 56.458888888888886,
+      "win_rate": 0.612037037037037
+     },
+     "D": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 70.12666666666667,
+      "win_rate": 0.5059259259259259
+     },
+     "E": {
+      "series": 60,
+      "games": 900,
+      "mean_score": 67.28,
+      "win_rate": 0.5968518518518519
+     }
+    },
+    "by_game_index": [
+     64.34333333333333,
+     64.88666666666667,
+     65.19,
+     63.97,
+     64.95666666666666,
+     64.89666666666666,
+     64.87,
+     64.11666666666666,
+     65.12666666666667,
+     64.80333333333333,
+     65.87666666666667,
+     64.96,
+     64.76,
+     65.06,
+     65.01
+    ]
+   }
+  },
+  "paired": {
+   "FairValuePacer - MarketReader": {
+    "mean_diff": -37.76644444444444,
+    "ci": [
+     -39.32622222222222,
+     -36.14688888888889
+    ],
+    "share_of_series_ahead": 0.0
+   },
+   "FairValuePacer - EvolvedWeights": {
+    "mean_diff": -17.299555555555557,
+    "ci": [
+     -18.73311111111111,
+     -15.955555555555556
+    ],
+    "share_of_series_ahead": 0.03
+   },
+   "FairValuePacer - HeuristicBot": {
+    "mean_diff": 6.439777777777778,
+    "ci": [
+     4.749777777777778,
+     8.181555555555555
+    ],
+    "share_of_series_ahead": 0.5866666666666667
+   },
+   "FairValuePacer - ThirdValueBot": {
+    "mean_diff": -15.515111111111112,
+    "ci": [
+     -17.07911111111111,
+     -14.070888888888888
+    ],
+    "share_of_series_ahead": 0.13
+   },
+   "MarketReader - EvolvedWeights": {
+    "mean_diff": 20.46688888888889,
+    "ci": [
+     19.68311111111111,
+     21.234666666666666
+    ],
+    "share_of_series_ahead": 1.0
+   },
+   "MarketReader - HeuristicBot": {
+    "mean_diff": 44.20622222222222,
+    "ci": [
+     42.66088888888889,
+     45.67155555555556
+    ],
+    "share_of_series_ahead": 1.0
+   },
+   "MarketReader - ThirdValueBot": {
+    "mean_diff": 22.25133333333333,
+    "ci": [
+     21.189333333333334,
+     23.308666666666667
+    ],
+    "share_of_series_ahead": 1.0
+   },
+   "EvolvedWeights - HeuristicBot": {
+    "mean_diff": 23.739333333333335,
+    "ci": [
+     22.59822222222222,
+     24.878666666666668
+    ],
+    "share_of_series_ahead": 1.0
+   },
+   "EvolvedWeights - ThirdValueBot": {
+    "mean_diff": 1.7844444444444445,
+    "ci": [
+     0.941111111111111,
+     2.6415555555555557
+    ],
+    "share_of_series_ahead": 0.6266666666666667
+   },
+   "HeuristicBot - ThirdValueBot": {
+    "mean_diff": -21.95488888888889,
+    "ci": [
+     -22.73822222222222,
+     -21.144888888888886
+    ],
+    "share_of_series_ahead": 0.0
+   }
+  }
+ },
+ "head_to_head": {
+  "all": {
+   "FairValuePacer": {
+    "series": 900,
+    "games": 13500,
+    "mean_score": 31.70148148148148,
+    "win_rate": 0.008185185185185186,
+    "score_ci": [
+     31.260814814814815,
+     32.1637037037037
+    ]
+   },
+   "MarketReader": {
+    "series": 900,
+    "games": 13500,
+    "mean_score": 86.24718518518519,
+    "win_rate": 0.769074074074074,
+    "score_ci": [
+     85.18007407407407,
+     87.35451851851852
+    ]
+   },
+   "EvolvedWeights": {
+    "series": 900,
+    "games": 13500,
+    "mean_score": 65.22881481481481,
+    "win_rate": 0.201,
+    "score_ci": [
+     64.08422222222222,
+     66.41281481481481
+    ]
+   }
+  },
+  "3": {
+   "FairValuePacer": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 39.513777777777776,
+    "win_rate": 0.004
+   },
+   "MarketReader": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 101.63155555555555,
+    "win_rate": 0.6904444444444444
+   },
+   "EvolvedWeights": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 88.83355555555555,
+    "win_rate": 0.3055555555555556
+   }
+  },
+  "4": {
+   "FairValuePacer": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 29.46088888888889,
+    "win_rate": 0.0035555555555555557
+   },
+   "MarketReader": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 81.10977777777778,
+    "win_rate": 0.7941111111111111
+   },
+   "EvolvedWeights": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 60.13733333333333,
+    "win_rate": 0.17444444444444446
+   }
+  },
+  "5": {
+   "FairValuePacer": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 26.12977777777778,
+    "win_rate": 0.017
+   },
+   "MarketReader": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 76.00022222222222,
+    "win_rate": 0.8226666666666667
+   },
+   "EvolvedWeights": {
+    "series": 300,
+    "games": 4500,
+    "mean_score": 46.715555555555554,
+    "win_rate": 0.123
+   }
+  }
+ },
+ "one_vs_copies": {
+  "FairValuePacer": {
+   "FairValuePacer": {
+    "mean_score": 72.72666666666667,
+    "win_rate": 0.28944444444444445,
+    "margin": -1.6079629629629628
+   },
+   "MarketReader": {
+    "mean_score": 31.261111111111113,
+    "win_rate": 0.0,
+    "margin": -46.67129629629629
+   },
+   "EvolvedWeights": {
+    "mean_score": 39.91444444444444,
+    "win_rate": 0.005555555555555556,
+    "margin": -34.98425925925926
+   },
+   "HeuristicBot": {
+    "mean_score": 78.34333333333333,
+    "win_rate": 0.7838888888888889,
+    "margin": 29.509074074074075
+   },
+   "ThirdValueBot": {
+    "mean_score": 41.903333333333336,
+    "win_rate": 0.025555555555555557,
+    "margin": -31.787407407407407
+   },
+   "AggressiveBot": {
+    "mean_score": 82.83333333333333,
+    "win_rate": 0.8614814814814815,
+    "margin": 39.60333333333333
+   }
+  },
+  "MarketReader": {
+   "FairValuePacer": {
+    "mean_score": 137.88666666666666,
+    "win_rate": 0.9794444444444445,
+    "margin": 96.38759259259258
+   },
+   "MarketReader": {
+    "mean_score": 60.20111111111111,
+    "win_rate": 0.31666666666666665,
+    "margin": 0.08851851851851861
+   },
+   "EvolvedWeights": {
+    "mean_score": 67.34222222222222,
+    "win_rate": 0.49537037037037035,
+    "margin": 9.468148148148149
+   },
+   "HeuristicBot": {
+    "mean_score": 88.17888888888889,
+    "win_rate": 0.9405555555555556,
+    "margin": 44.62277777777778
+   },
+   "ThirdValueBot": {
+    "mean_score": 78.77666666666667,
+    "win_rate": 0.6955555555555556,
+    "margin": 23.56925925925926
+   },
+   "AggressiveBot": {
+    "mean_score": 105.46222222222222,
+    "win_rate": 0.9888888888888889,
+    "margin": 66.52907407407407
+   }
+  },
+  "EvolvedWeights": {
+   "FairValuePacer": {
+    "mean_score": 97.75222222222222,
+    "win_rate": 0.7833333333333333,
+    "margin": 40.19777777777778
+   },
+   "MarketReader": {
+    "mean_score": 60.333333333333336,
+    "win_rate": 0.31925925925925924,
+    "margin": 1.4568518518518516
+   },
+   "EvolvedWeights": {
+    "mean_score": 62.69555555555556,
+    "win_rate": 0.3022222222222222,
+    "margin": -0.6283333333333336
+   },
+   "HeuristicBot": {
+    "mean_score": 78.29555555555555,
+    "win_rate": 0.8261111111111111,
+    "margin": 30.311851851851852
+   },
+   "ThirdValueBot": {
+    "mean_score": 63.534444444444446,
+    "win_rate": 0.39611111111111114,
+    "margin": 0.8755555555555554
+   },
+   "AggressiveBot": {
+    "mean_score": 85.79444444444445,
+    "win_rate": 0.9194444444444444,
+    "margin": 43.809814814814814
+   }
+  },
+  "HeuristicBot": {
+   "FairValuePacer": {
+    "mean_score": 50.534444444444446,
+    "win_rate": 0.021111111111111112,
+    "margin": -23.810555555555556
+   },
+   "MarketReader": {
+    "mean_score": 45.73,
+    "win_rate": 0.05333333333333334,
+    "margin": -16.074814814814815
+   },
+   "EvolvedWeights": {
+    "mean_score": 47.89555555555555,
+    "win_rate": 0.041666666666666664,
+    "margin": -17.858333333333334
+   },
+   "HeuristicBot": {
+    "mean_score": 49.275555555555556,
+    "win_rate": 0.2987037037037037,
+    "margin": -0.11055555555555556
+   },
+   "ThirdValueBot": {
+    "mean_score": 49.10777777777778,
+    "win_rate": 0.12166666666666667,
+    "margin": -13.26685185185185
+   },
+   "AggressiveBot": {
+    "mean_score": 53.24111111111111,
+    "win_rate": 0.38222222222222224,
+    "margin": 4.995925925925926
+   }
+  },
+  "ThirdValueBot": {
+   "FairValuePacer": {
+    "mean_score": 80.13777777777777,
+    "win_rate": 0.40055555555555555,
+    "margin": 14.982407407407408
+   },
+   "MarketReader": {
+    "mean_score": 55.85,
+    "win_rate": 0.18222222222222223,
+    "margin": -6.58537037037037
+   },
+   "EvolvedWeights": {
+    "mean_score": 64.62222222222222,
+    "win_rate": 0.17907407407407405,
+    "margin": 1.8792592592592594
+   },
+   "HeuristicBot": {
+    "mean_score": 71.16555555555556,
+    "win_rate": 0.8488888888888889,
+    "margin": 25.464074074074077
+   },
+   "ThirdValueBot": {
+    "mean_score": 62.906666666666666,
+    "win_rate": 0.2714814814814815,
+    "margin": -0.9225925925925929
+   },
+   "AggressiveBot": {
+    "mean_score": 73.65777777777778,
+    "win_rate": 0.8870370370370371,
+    "margin": 31.310185185185187
+   }
+  },
+  "AggressiveBot": {
+   "FairValuePacer": {
+    "mean_score": 49.56111111111111,
+    "win_rate": 0.07333333333333333,
+    "margin": -21.108888888888888
+   },
+   "MarketReader": {
+    "mean_score": 39.30222222222222,
+    "win_rate": 0.021666666666666667,
+    "margin": -25.268703703703704
+   },
+   "EvolvedWeights": {
+    "mean_score": 41.471111111111114,
+    "win_rate": 0.017037037037037038,
+    "margin": -25.49888888888889
+   },
+   "HeuristicBot": {
+    "mean_score": 45.30111111111111,
+    "win_rate": 0.24314814814814817,
+    "margin": -4.888518518518519
+   },
+   "ThirdValueBot": {
+    "mean_score": 40.52777777777778,
+    "win_rate": 0.05611111111111111,
+    "margin": -21.510370370370367
+   },
+   "AggressiveBot": {
+    "mean_score": 49.74111111111111,
+    "win_rate": 0.2861111111111111,
+    "margin": -1.047037037037037
+   }
+  }
+ },
+ "league_chartA_FairValuePacer": {
+  "AlgoGemBot": {
+   "series": 291,
+   "games": 4365,
+   "mean_score": 84.71088201603665,
+   "win_rate": 0.7735967926689576
+  },
+  "ThirdValueBot": {
+   "series": 313,
+   "games": 4695,
+   "mean_score": 72.76847710330138,
+   "win_rate": 0.5831380901668441
+  },
+  "FairValuePacer": {
+   "series": 298,
+   "games": 4470,
+   "mean_score": 71.50111856823266,
+   "win_rate": 0.5016405667412379
+  },
+  "NaiveChartBot": {
+   "series": 304,
+   "games": 4560,
+   "mean_score": 62.9703947368421,
+   "win_rate": 0.36997441520467833
+  },
+  "CollectorBot": {
+   "series": 297,
+   "games": 4455,
+   "mean_score": 56.17485970819304,
+   "win_rate": 0.23007856341189675
+  },
+  "HalfBudgetBot": {
+   "series": 303,
+   "games": 4545,
+   "mean_score": 46.23190319031903,
+   "win_rate": 0.1317931793179318
+  },
+  "HeuristicBot": {
+   "series": 275,
+   "games": 4125,
+   "mean_score": 45.168727272727274,
+   "win_rate": 0.09355555555555556
+  },
+  "OneBot": {
+   "series": 297,
+   "games": 4455,
+   "mean_score": 44.782716049382714,
+   "win_rate": 0.13699962588851478
+  },
+  "InvestorBot": {
+   "series": 292,
+   "games": 4380,
+   "mean_score": 44.34566210045662,
+   "win_rate": 0.07317351598173516
+  },
+  "AggressiveBot": {
+   "series": 329,
+   "games": 4935,
+   "mean_score": 41.037892603850054,
+   "win_rate": 0.078774062816616
+  },
+  "RandomBot": {
+   "series": 290,
+   "games": 4350,
+   "mean_score": 28.54206896551724,
+   "win_rate": 0.02632183908045977
+  },
+  "ZeroBot": {
+   "series": 311,
+   "games": 4665,
+   "mean_score": 27.861307609860663,
+   "win_rate": 0.002572347266881029
+  }
+ },
+ "league_chartA_MarketReader": {
+  "MarketReader": {
+   "series": 298,
+   "games": 4470,
+   "mean_score": 96.96085011185683,
+   "win_rate": 0.9058538404175988
+  },
+  "AlgoGemBot": {
+   "series": 291,
+   "games": 4365,
+   "mean_score": 74.45383734249714,
+   "win_rate": 0.5882588774341352
+  },
+  "ThirdValueBot": {
+   "series": 313,
+   "games": 4695,
+   "mean_score": 69.47305644302449,
+   "win_rate": 0.4982960596379127
+  },
+  "NaiveChartBot": {
+   "series": 304,
+   "games": 4560,
+   "mean_score": 59.6,
+   "win_rate": 0.2991776315789474
+  },
+  "CollectorBot": {
+   "series": 297,
+   "games": 4455,
+   "mean_score": 53.91043771043771,
+   "win_rate": 0.19524878413767305
+  },
+  "HeuristicBot": {
+   "series": 275,
+   "games": 4125,
+   "mean_score": 44.39127272727273,
+   "win_rate": 0.09084848484848485
+  },
+  "InvestorBot": {
+   "series": 292,
+   "games": 4380,
+   "mean_score": 44.109817351598174,
+   "win_rate": 0.06997716894977168
+  },
+  "OneBot": {
+   "series": 297,
+   "games": 4455,
+   "mean_score": 43.573063973063974,
+   "win_rate": 0.13677515899738124
+  },
+  "HalfBudgetBot": {
+   "series": 303,
+   "games": 4545,
+   "mean_score": 43.431463146314634,
+   "win_rate": 0.12563256325632563
+  },
+  "AggressiveBot": {
+   "series": 329,
+   "games": 4935,
+   "mean_score": 39.26646403242148,
+   "win_rate": 0.06675109760216144
+  },
+  "RandomBot": {
+   "series": 290,
+   "games": 4350,
+   "mean_score": 27.916551724137932,
+   "win_rate": 0.024482758620689656
+  },
+  "ZeroBot": {
+   "series": 311,
+   "games": 4665,
+   "mean_score": 27.84801714898178,
+   "win_rate": 0.002572347266881029
+  }
+ },
+ "league_chartA_EvolvedWeights": {
+  "EvolvedWeights": {
+   "series": 298,
+   "games": 4470,
+   "mean_score": 78.78523489932886,
+   "win_rate": 0.7363161819537659
+  },
+  "AlgoGemBot": {
+   "series": 291,
+   "games": 4365,
+   "mean_score": 78.19152348224513,
+   "win_rate": 0.6628293241695303
+  },
+  "ThirdValueBot": {
+   "series": 313,
+   "games": 4695,
+   "mean_score": 71.05431309904154,
+   "win_rate": 0.5383031593894214
+  },
+  "NaiveChartBot": {
+   "series": 304,
+   "games": 4560,
+   "mean_score": 60.0094298245614,
+   "win_rate": 0.3135051169590643
+  },
+  "CollectorBot": {
+   "series": 297,
+   "games": 4455,
+   "mean_score": 55.07968574635241,
+   "win_rate": 0.22031425364758697
+  },
+  "OneBot": {
+   "series": 297,
+   "games": 4455,
+   "mean_score": 45.62222222222222,
+   "win_rate": 0.13946876169098393
+  },
+  "HalfBudgetBot": {
+   "series": 303,
+   "games": 4545,
+   "mean_score": 44.92607260726073,
+   "win_rate": 0.12871287128712872
+  },
+  "HeuristicBot": {
+   "series": 275,
+   "games": 4125,
+   "mean_score": 44.61381818181818,
+   "win_rate": 0.09125252525252525
+  },
+  "InvestorBot": {
+   "series": 292,
+   "games": 4380,
+   "mean_score": 43.99931506849315,
+   "win_rate": 0.07146118721461187
+  },
+  "AggressiveBot": {
+   "series": 329,
+   "games": 4935,
+   "mean_score": 40.251671732522794,
+   "win_rate": 0.07340425531914893
+  },
+  "RandomBot": {
+   "series": 290,
+   "games": 4350,
+   "mean_score": 28.167816091954023,
+   "win_rate": 0.024597701149425288
+  },
+  "ZeroBot": {
+   "series": 311,
+   "games": 4665,
+   "mean_score": 27.966559485530546,
+   "win_rate": 0.002572347266881029
+  }
+ },
+ "league_chartA_all_three": {
+  "MarketReader": {
+   "series": 352,
+   "games": 5280,
+   "mean_score": 94.74905303030303,
+   "win_rate": 0.8700757575757576
+  },
+  "EvolvedWeights": {
+   "series": 341,
+   "games": 5115,
+   "mean_score": 74.41739980449658,
+   "win_rate": 0.5664711632453568
+  },
+  "AlgoGemBot": {
+   "series": 332,
+   "games": 4980,
+   "mean_score": 73.81967871485944,
+   "win_rate": 0.5441432396251674
+  },
+  "ThirdValueBot": {
+   "series": 343,
+   "games": 5145,
+   "mean_score": 65.36618075801749,
+   "win_rate": 0.4052154195011338
+  },
+  "FairValuePacer": {
+   "series": 318,
+   "games": 4770,
+   "mean_score": 59.44234800838574,
+   "win_rate": 0.3233053808525507
+  },
+  "NaiveChartBot": {
+   "series": 336,
+   "games": 5040,
+   "mean_score": 56.12023809523809,
+   "win_rate": 0.24619708994708994
+  },
+  "CollectorBot": {
+   "series": 359,
+   "games": 5385,
+   "mean_score": 53.22599814298979,
+   "win_rate": 0.17397090683998762
+  },
+  "InvestorBot": {
+   "series": 358,
+   "games": 5370,
+   "mean_score": 43.70074487895717,
+   "win_rate": 0.05657976412166356
+  },
+  "HeuristicBot": {
+   "series": 326,
+   "games": 4890,
+   "mean_score": 43.221472392638034,
+   "win_rate": 0.07044989775051125
+  },
+  "HalfBudgetBot": {
+   "series": 341,
+   "games": 5115,
+   "mean_score": 42.178690127077225,
+   "win_rate": 0.09811013359400456
+  },
+  "AggressiveBot": {
+   "series": 368,
+   "games": 5520,
+   "mean_score": 39.07572463768116,
+   "win_rate": 0.059510869565217395
+  },
+  "OneBot": {
+   "series": 353,
+   "games": 5295,
+   "mean_score": 37.4,
+   "win_rate": 0.07947749449165879
+  },
+  "ZeroBot": {
+   "series": 339,
+   "games": 5085,
+   "mean_score": 27.669813176007867,
+   "win_rate": 0.0019665683382497543
+  },
+  "RandomBot": {
+   "series": 334,
+   "games": 5010,
+   "mean_score": 27.375249500998002,
+   "win_rate": 0.016866267465069862
+  }
+ }
+}
