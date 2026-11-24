@@ -134,7 +134,52 @@ Deals here were used for nothing else.
 
 Version 2 is better in every test, by 1 to 2 points per game against other bots and by more when the two meet directly. The gain is real but modest: most of the bot's strength was already in version 1. The earlier tables in this document are for version 1.
 
-Classmates' bots can be pulled in with `python3 scripts/fetch_submissions.py` once they are submitted. As of Nov 13 there were none.
+## Against the submitted bots (23 Nov 2026)
+
+Five classmates had entered ten bots by pull request on the course harness. `python3 scripts/fetch_submissions.py` copies them into the uncommitted `harness/` folder; none of their code is in this repo. Nine run quickly and are used below. The tenth, SamplingBot, takes about 6 seconds a game and needs its own pull request's `harness.py`, so it was tested separately.
+
+### Simulated league
+
+Random line-ups of distinct bots, 3 to 5 players, all five charts, 9,000 games, with the settings now in the bot.
+
+| Rank | Bot | Points per game | 95% range | Win rate | 3p | 4p | 5p | Chart A points | Chart A wins |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | UltimateBot | 53.3 | 51.5 to 55.1 | 38.2% | 73.1 | 50.4 | 42.2 | 52.5 | 31.4% |
+| 2 | MarketReader | 53.1 | 51.4 to 54.9 | 43.1% | 74.7 | 51.5 | 43.0 | 55.1 | 43.1% |
+| 3 | YaleBot | 51.2 | 49.6 to 53.0 | 33.6% | 70.1 | 49.0 | 42.1 | 53.0 | 36.5% |
+| 4 | AdaptiveBot | 49.1 | 47.4 to 50.8 | 23.5% | 68.5 | 45.8 | 39.2 | 50.6 | 25.8% |
+| 5 | ValueLiquidityBot | 48.9 | 47.3 to 50.6 | 24.6% | 68.9 | 46.3 | 38.7 | 49.5 | 24.5% |
+| 6 | AggressiveBot | 48.9 | 47.2 to 50.7 | 25.7% | 70.2 | 46.9 | 38.6 | 50.5 | 25.7% |
+| 7 | FinanceAwareAdaptiveBot | 47.8 | 46.1 to 49.6 | 19.6% | 68.5 | 46.6 | 36.7 | 48.7 | 18.8% |
+| 8 | LoanAwareAdaptiveBot | 46.9 | 45.2 to 48.5 | 14.2% | 66.6 | 45.0 | 36.1 | 46.6 | 11.7% |
+| 9 | ConservativeAdaptiveBot | 46.2 | 44.8 to 47.7 | 13.0% | 65.3 | 45.1 | 36.1 | 46.4 | 12.2% |
+| 10 | ValuationBot | 45.3 | 43.6 to 47.1 | 14.1% | 66.3 | 43.2 | 34.1 | 45.6 | 13.6% |
+
+The Market Reader is in a statistical tie for first on points with UltimateBot and has the highest win rate. Scores are far lower than against the stand-in opponents because these bots use the same ideas: exact gem values, a coin premium and learned opponent bids.
+
+### Tuning against them
+
+The tuner was rerun for each player count with the submitted bots as opponents (`results/tuned_mr_class_n*.json`), then checked on deals it had never seen.
+
+| Settings | Against submitted bots | 95% range | Against stand-ins | 95% range |
+|---|---|---|---|---|
+| Fully retuned (9,000 games) | +0.13 | -0.14 to +0.40 | -0.65 | -1.01 to -0.29 |
+| Half-way between old and retuned (9,000 games) | +0.34 | +0.14 to +0.56 | -0.31 | -0.62 to 0.00 |
+| Half-way, second set of deals (13,500 games) | +0.25 | +0.08 to +0.43 | not run | |
+
+Changes are points per game against the version 2 settings (kept in `otis_bots/market_reader_v2_base.py`). The fully retuned settings did not hold up. The half-way settings were chosen after seeing the first check, so they were tested again on new deals; the gain held and they are now in the bot. It is small (under 1% of the score, win rate 42.7% to 44.0%) and comes almost entirely from 3-player games.
+
+### SamplingBot
+
+150 games with SamplingBot at every table: it scored 45.7 points per game (9th of 11) with 9% wins; the Market Reader scored 54.6 at the same tables. The sample is small, so the ranking among the top bots there means little.
+
+```bash
+python -m arena.class_field league
+```
+
+```bash
+python -m arena.confirm_class
+```
 
 ## Reproduce
 

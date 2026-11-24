@@ -145,6 +145,20 @@ TRAIN_ZOO = (
 )
 HOLDOUT_ZOO = ("AlgoGemBot", "HalfBudgetBot", "AggressiveBot", "CollectorBot")
 ALL_ZOO = TRAIN_ZOO + HOLDOUT_ZOO
-# Bots from classmates. Real submissions fetched by scripts/fetch_submissions.py
-# are written "bot_definitions.<file>:<Class>"; plain names are stand-ins here.
-CLASS_BOTS: tuple = ("OnePerGemBot",)
+# Classmates' submitted bots (pull requests on the course harness as of
+# 23 Nov 2026). scripts/fetch_submissions.py copies their files into the
+# uncommitted harness/ folder; none of their code is in this repo.
+CLASS_BOTS: tuple = (
+    "bot_definitions.valuation_bot:ValuationBot",  # PR 1
+    "bot_definitions.adaptive_bot:AdaptiveBot",  # PR 2
+    "bot_definitions.aggressive_bot:AggressiveBot",  # PR 2
+    "bot_definitions.value_liquidity_bot:ValueLiquidityBot",  # PR 2
+    "bot_definitions.yale_bot:YaleBot",  # PR 4
+    "bot_definitions.adaptive_finance_bots:ConservativeAdaptiveBot",  # PR 5
+    "bot_definitions.adaptive_finance_bots:LoanAwareAdaptiveBot",  # PR 5
+    "bot_definitions.adaptive_finance_bots:FinanceAwareAdaptiveBot",  # PR 5
+    "bot_definitions.ultimate_bot:UltimateBot",  # PR 6
+)
+# PR 1's SamplingBot needs PR 1's edited harness.py and takes ~6 s per game,
+# so it is tested separately on a small sample.
+SLOW_CLASS_BOTS: tuple = ("bot_definitions.sampling_bot:SamplingBot",)

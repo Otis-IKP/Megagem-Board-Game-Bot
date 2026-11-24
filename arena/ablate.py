@@ -17,7 +17,7 @@ from arena.evaluate import GAMES, bootstrap
 
 from otis_bots.zoo import ALL_ZOO, CLASS_BOTS
 
-POOL = ALL_ZOO + ("EvolvedWeights", "MarketReaderV1", "FairValuePacer") + CLASS_BOTS
+POOL = ALL_ZOO + ("EvolvedWeights", "MarketReaderV1", "FairValuePacer")
 SEED_BASE = 3_000_000
 
 VARIANTS = {

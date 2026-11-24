@@ -47,9 +47,9 @@ class MarketReader(Bot):
         "color_k": 0.0, "split_lots": 0.0, "censor": 0.0, "supply_check": 0.0,
         # Settings tuned separately for each player count.
         "by_n": {
-            3: {"lam0": 1.978, "kappa": 0.225, "delta": -0.423, "rho": 0.465, "prior_weight": 2.224, "decay": 0.942, "la_mix": 0.054, "win_cost": -1.419, "race_pen": 0.785, "deny_w": 0.204},
-            4: {"lam0": 2.276, "kappa": 0.243, "delta": -0.613, "rho": 0.458, "prior_weight": 2.068, "decay": 0.969, "la_mix": 0.136, "win_cost": -0.857, "race_pen": 0.784, "deny_w": 0.167},
-            5: {"lam0": 2.75, "kappa": 0.255, "delta": -0.145, "rho": 0.389, "prior_weight": 2.317, "decay": 0.971, "la_mix": 0.039, "win_cost": -0.764, "race_pen": 0.915, "deny_w": 0.202},
+            3: {"lam0": 1.758, "kappa": 0.254, "delta": -0.573, "rho": 0.453, "prior_weight": 2.318, "decay": 0.959, "la_mix": 0.058, "win_cost": -1.236, "race_pen": 0.762, "deny_w": 0.18},
+            4: {"lam0": 2.192, "kappa": 0.264, "delta": -0.491, "rho": 0.491, "prior_weight": 2.025, "decay": 0.976, "la_mix": 0.222, "win_cost": -0.688, "race_pen": 0.776, "deny_w": 0.173},
+            5: {"lam0": 2.786, "kappa": 0.306, "delta": 0.059, "rho": 0.364, "prior_weight": 2.641, "decay": 0.981, "la_mix": 0.034, "win_cost": -0.831, "race_pen": 0.839, "deny_w": 0.194},
         },
     }
 

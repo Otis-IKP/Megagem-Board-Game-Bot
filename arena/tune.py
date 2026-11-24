@@ -18,13 +18,13 @@ from random import Random
 from arena import ROOT
 from arena.engine import run_jobs, run_series, spec
 
-from otis_bots.zoo import TRAIN_ZOO
+from otis_bots.zoo import CLASS_BOTS, TRAIN_ZOO
 
 WIN_BONUS = 15.0  # fitness = mean score + WIN_BONUS * win rate
 TRAIN_POOL = TRAIN_ZOO + ("FairValuePacer",)
 # Stronger pool for the second round of tuning: adds the two better bots.
 STRONG_POOL = TRAIN_POOL + ("EvolvedWeights", "MarketReaderV1")
-POOLS = {"train": TRAIN_POOL, "strong": STRONG_POOL}
+POOLS = {"train": TRAIN_POOL, "strong": STRONG_POOL, "class": CLASS_BOTS}
 CHART_SLOTS = "AABCDE"
 GAMES_PER_SERIES = 6
 
@@ -65,7 +65,8 @@ SPACES = {
 
 
 SPACE_BOT = {"mr_wide": "MarketReader", "mr_full": "MarketReader"}
-FIXED = {"mr_full": {"reset_detect": 1.0, "la_share": 6.0}}
+# by_n is cleared so the values being tuned are not overridden per player count.
+FIXED = {"mr_full": {"reset_detect": 1.0, "la_share": 6.0, "by_n": None}}
 
 
 def to_params(bot: str, vec: list[float]) -> dict:
@@ -82,10 +83,13 @@ def to_params(bot: str, vec: list[float]) -> dict:
     return out
 
 
-def default_vec(bot: str) -> list[float]:
+def default_vec(bot: str, players=None) -> list[float]:
     from arena.engine import make_class
 
     params = {**make_class(spec(SPACE_BOT.get(bot, bot))).PARAMS, **FIXED.get(bot, {})}
+    by_n = make_class(spec(SPACE_BOT.get(bot, bot))).PARAMS.get("by_n") or {}
+    if players and len(players) == 1 and players[0] in by_n:
+        params = {**params, **by_n[players[0]]}  # start from that count's settings
     vec = []
     for name, _, _ in SPACES[bot]:
         if name.startswith("w") and name[1:].isdigit():
@@ -103,7 +107,10 @@ def lineups(seed: int, repeats: int, pool=TRAIN_POOL, seed_base=1_000_000,
     for rep in range(repeats):
         for n in players:
             for chart in CHART_SLOTS:
-                opps = [rng.choice(pool) for _ in range(n - 1)]
+                if pool is CLASS_BOTS:  # real entrants meet at most once per table
+                    opps = rng.sample(pool, n - 1)
+                else:
+                    opps = [rng.choice(pool) for _ in range(n - 1)]
                 first = seed_base + rng.randrange(10**6) * 10
                 seeds = list(range(first, first + GAMES_PER_SERIES))
                 out.append((n, chart, opps, rng.randrange(n), seeds))
@@ -150,7 +157,7 @@ def main() -> None:
     hi = [s[2] for s in space]
     clip = lambda v: [min(h, max(l, x)) for x, l, h in zip(v, lo, hi)]  # noqa: E731
 
-    base = default_vec(bot)
+    base = default_vec(bot, args.players)
     pop = [base] + [
         clip([x + rng.gauss(0, 0.25 * (h - l)) for x, l, h in zip(base, lo, hi)])
         for _ in range(args.pop - 1)
